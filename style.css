@@ -131,6 +131,7 @@ text {
     gap: 20px;
     width: 80%;
     margin: auto;
+    border: 5px solid wheat;
 }
 
 .pic {
