@@ -1,17 +1,11 @@
-nav{
+ul{
     display: flex;
-    justify-content:space-between;
-    align-items: center;
-    /* gap: 10px; */
+    justify-content:flex-end;
 }
 
 .nav-links {
     padding: auto;
     margin: 20px;
-}
-#logo {
-    width: 50px;
-    border: ridge red thick;
 }
 
 .nav-links li {
@@ -27,7 +21,8 @@ nav{
 
 #hero-container {
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
+justify-content: center;
 }
 
 button{
@@ -42,8 +37,22 @@ button{
     height: 243px;
     border-radius: 50%;
 }
+
+section {
+    padding: 146px;
+}
+
 #description {
-    width: 497px;
+   margin-right:0 115px  0 115px;
+   margin-bottom: 71px;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#lorem {
+    margin-bottom: 40px;
 }
 
 #parent-container {
@@ -52,32 +61,26 @@ button{
 }
 
 #posts {
-width: 418px;
+    margin-right: 20px;
  background-color: beige;
  padding: 25px;
- border-radius: 40px;
+ border-radius: 4px;
 }
 
 #view {
-    width: 418px;
+    
     background-color: beige;
     padding: 25px;
-    border-radius: 40px;
+    border-radius: 4px;
 }
 
 #post-heading {
     display: flex;
     justify-content: space-between;
-    width: 1060px;
 }
 
 #views {
     list-style-type: none;
-}
-
-#heading-parent {
-    display: flex;
-    justify-content: center;
 }
 
 #design-dashboard-box {
@@ -107,7 +110,11 @@ width: 418px;
     border-radius: 10px;
 }
 
-text {
+#dasign-dashboard-text {
+margin-left: 20px;
+}
+
+#text {
     display: flex;
     gap: 5px;
 }
@@ -130,6 +137,11 @@ text {
     gap: 20px;
     width: 80%;
     margin: auto;
+}
+
+#illustration-box-text {
+    margin-top: 30px;
+    margin-left: -120px;
 }
 
 .pic {
@@ -157,6 +169,7 @@ text {
     color: grey;
 }
 
+
 #typograph-box {
     display: flex;
     gap: 20px;
@@ -170,6 +183,11 @@ text {
     border-radius: 6px;
     margin-right:160px;
     margin-top: 40px;   
+}
+
+#typograph-box-text {
+margin-top: 30px;
+margin-left: -120px;
 }
 
 #days {
@@ -187,4 +205,21 @@ text {
 
 #wroten {
     color: grey;
+}
+
+#main-pic {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+#photo {
+    width: 100px;
+    margin-top: 55px;
+  
+}
+
+#copyright {
+   display: flex;
+   margin-left: 600px;
 }
