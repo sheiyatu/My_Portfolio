@@ -39,7 +39,7 @@ button{
 }
 
 section {
-    padding: 146px;
+    padding: 0 146px 0 146px;
 }
 
 #description {
@@ -85,7 +85,7 @@ section {
     width: 246px;
     height: 180px;
     border-radius: 6px;
-    margin-right: 18px;
+    margin-left: 35px;
     margin-top: 25px;
 }
 
@@ -116,6 +116,7 @@ margin-left: 40px;
     
 #texts {
     color: grey;
+    margin-left: 20px;
 }
 
 #illustration-box {
@@ -152,6 +153,7 @@ margin-bottom: 0px;
 
 #written {
     color: grey;
+    margin-left: 20px;
 }
 
 
@@ -188,6 +190,7 @@ margin-left: 50px;
 
 #wroten {
     color: grey;
+    margin-left: 20px;
 }
 
 #main-pic {
@@ -204,5 +207,14 @@ margin-left: 50px;
 
 #copyright {
    display: flex;
-   margin-left: 550px;
+   margin-left: 720px;
+   font-size: small;
+}
+
+#image-picture {
+    margin-top: 83px;
+}
+
+#recentpostsection {
+    background-color:#EDF7FA ;
 }
